@@ -18,13 +18,14 @@ const yaleRecord = new schema(
         {
             type : String,
             required : true
-        },
-        phone:
-        {
-            type: String,
-            required : true
         }
+        // ,
+        // phone:
+        // {
+        //     type: String,
+        //     required : true
+        // }
     }, { timestamps: true }
 )
 
-module.exports = mongoose.model('yaleRecord', yaleRecord)
+module.exports = mongoose.model('registered_users', yaleRecord)

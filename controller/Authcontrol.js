@@ -27,7 +27,7 @@ const createUser = async (req, res) => {
     }
 
     res.status(200).json(exist._id)
-    // console.log(email, password)
+    console.log(email, password)
 
 }
 
